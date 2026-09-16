@@ -86,7 +86,7 @@ int main()
     G2 = a * b;
 
     // Виведення результату
-    cout << "G^2 = " << G2 << endl;
+    cout << "G2 = " << G2 << endl;
 
     return 0;
 }
