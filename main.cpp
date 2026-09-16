@@ -24,9 +24,10 @@ int main()
 
     // Завдання Begin32
     // Знаходження діаметра і площі сектора
-
+ 
+    // Оголошення змінних
     double R, D, S;
-    const double PI = 3.14;
+    const double PI = 3.14;      // Значення числа PI
 
     cout << "Begin32" << endl;
     cout << "Enter R: ";
