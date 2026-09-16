@@ -2,7 +2,8 @@
 using namespace std;
 
 int main()
-{// Завдання Begin29
+{   
+    // Завдання Begin29
     // Розв'язання рівняння Ax + B = 0
 
     // декларація змінних
@@ -17,7 +18,7 @@ int main()
 
     cout << "Enter B: ";
     cin >> B;
-
+    
     // Виведення записаних значень на дисплей
     cout << "Entered value A: " << A << endl;
     cout << "Entered value B: " << B << endl;
@@ -30,12 +31,13 @@ int main()
 
     cout << endl;
 
+    
     // Завдання Begin32
     // Знаходження діаметра і площі сектора
 
-    // коментар має бути
+    // декларація змінних
     double R, D, S;
-    const double PI = 3.14;                        // коментар має бути
+    const double PI = 3.14;        // значення числа PI
 
     // комунікація з користувачем
     cout << "Begin32" << endl;
@@ -56,6 +58,35 @@ int main()
     // Виведення результатів
     cout << "D = " << D << endl;
     cout << "S = " << S << endl;
+    
+    cout << endl;
+
+   
+    // Завдання Begin48
+    // Знаходження квадрата середнього геометричного
+    
+    // декларація змінних
+    double a, b, G2;
+    
+    // комунікація з користувачем
+    cout << "Begin48" << endl;
+    
+    // Введення значень для змінних
+    cout << "Enter a: ";
+    cin >> a;
+    
+    cout << "Enter b: ";
+    cin >> b;
+
+    // Виведення записаних значень на дисплей
+    cout << "Entered value a: " << a << endl;
+    cout << "Entered value b: " << b << endl;
+
+    // Обчислення квадрата середнього геометричного
+    G2 = a * b;
+
+    // Виведення результату
+    cout << "G^2 = " << G2 << endl;
 
     return 0;
 }
